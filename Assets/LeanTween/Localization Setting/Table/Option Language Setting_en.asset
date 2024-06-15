@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Option Language Setting_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: b1978515ee8bb0a47ac05c7cc79d128f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 52773634048
+    m_Localized: Use Of Keyboard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20906626629632
+    m_Localized: About Us
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21548019597312
+    m_Localized: Developer Team
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22012647817216
+    m_Localized: Supporting Source
+    m_Metadata:
+      m_Items: []
+  - m_Id: 828896598409216
+    m_Localized: Opened the recipe book
+    m_Metadata:
+      m_Items: []
+  - m_Id: 829228728565760
+    m_Localized: Dash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 829277495738368
+    m_Localized: Starting and Ending conversation with an NPC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 829433498681344
+    m_Localized: player movement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 829923099787264
+    m_Localized: Consultant Mentor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 830052108189696
+    m_Localized: Game Designer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 830217753837568
+    m_Localized: Game Artist Developer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 830313795010560
+    m_Localized: Game programming Developer
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: NPC dialog Table_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 16f09bc3867a3ae4cb92c04a2748534b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 22411067392
+    m_Localized: Hi Buddy! You must Help Me!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 493708230656
+    m_Localized: Hi Traveller! Please Help Me!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 386921250816
+    m_Localized: My body feels shivering, and I'm breaking out in cold sweat. I find
+      it hard to move because my whole body feels weak. My muscles and head are aching.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1374767923200
+    m_Localized: I feel weak and have a headache. I sneeze all the time until my
+      nose is blocked and I feel suffocated when breathing.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144777342205952
+    m_Localized: I felt tremors all over my body and cold sweat. I felt weak and
+      had difficulty moving. I also felt pain in my muscles and head.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144716218613760
+    m_Localized: I felt a tremor with cold sweat, weakness, difficulty moving, and
+      muscle and head pain.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144747818500096
+    m_Localized: I felt weak and my head hurt. I often sneeze until my nose feels
+      blocked and it's difficult to breathe, as if someone is pressing on me.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3275353368674304
+    m_Localized: hold on a second. where do you think you are going pal ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3276098176401408
+    m_Localized: go help people just like what you have been tasked !!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3276432047194112
+    m_Localized: Seems like you have been a good doctor, you may continue your journey.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3278721113767936
+    m_Localized: There is no better place to enjoy your free time other than here
+      !!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3279067429060608
+    m_Localized: 'If only times like this last forever... '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3279408669245440
+    m_Localized: I wonder if dad proud of me now...
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

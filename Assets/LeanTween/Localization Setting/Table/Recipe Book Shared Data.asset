@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Recipe Book Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Recipe Book
+  m_TableCollectionNameGuidString: 82ffa881dbf77b74eb4f8f645d352d7c
+  m_Entries:
+  - m_Id: 37015633920
+    m_Key: Demam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103738621952
+    m_Key: Obat Demam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153407569920
+    m_Key: Flu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331610963968
+    m_Key: Obat Flu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 392180908032
+    m_Key: Batuk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 434262360064
+    m_Key: Obat Batuk 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 521654878208
+    m_Key: Obat Batuk 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 577200046080
+    m_Key: Radang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 659790086144
+    m_Key: Obat Radang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 711065452544
+    m_Key: Bisul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759866179584
+    m_Key: Obat Bisul 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 853780840448
+    m_Key: Obat Bisul 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 928720470016
+    m_Key: Diare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 972110544896
+    m_Key: Obat Diare 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1168064233472
+    m_Key: Obat Diare 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1223617789952
+    m_Key: Obat Diare 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1284078682112
+    m_Key: Panu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1322284597248
+    m_Key: Obat Panu 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1393860395008
+    m_Key: Obat Panu 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1460822458368
+    m_Key: Cacar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1511296712704
+    m_Key: Obat Cacar 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1577185034240
+    m_Key: Obat Cacar 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1627755757568
+    m_Key: Obat Cacar 3
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 7913208966619332610
+  references:
+    version: 2
+    RefIds:
+    - rid: 7913208966619332610
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1717074807605

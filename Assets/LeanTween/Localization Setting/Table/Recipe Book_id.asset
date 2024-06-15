@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Recipe Book_id
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: id
+  m_SharedData: {fileID: 11400000, guid: 82ffa881dbf77b74eb4f8f645d352d7c, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 37015633920
+    m_Localized: Demam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103738621952
+    m_Localized: Kunyit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153407569920
+    m_Localized: Pilek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331610963968
+    m_Localized: Bawang putih
+    m_Metadata:
+      m_Items: []
+  - m_Id: 392180908032
+    m_Localized: Batuk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 434262360064
+    m_Localized: Daun Mint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 521654878208
+    m_Localized: Lemon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 577200046080
+    m_Localized: Radang Tenggorokan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 659790086144
+    m_Localized: Madu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 711065452544
+    m_Localized: Bisul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759866179584
+    m_Localized: Kentang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 853780840448
+    m_Localized: Bawang Merah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 928720470016
+    m_Localized: Diare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 972110544896
+    m_Localized: Pisang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1168064233472
+    m_Localized: Daun Kelor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1223617789952
+    m_Localized: Pala
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1284078682112
+    m_Localized: Panu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1322284597248
+    m_Localized: Lengkuas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1393860395008
+    m_Localized: Minyak Kelapa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1460822458368
+    m_Localized: Cacar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1511296712704
+    m_Localized: Mengkudu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1577185034240
+    m_Localized: Lidah Buaya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1627755757568
+    m_Localized: Daun Sirih
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: NPC dialog Table_id
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: id
+  m_SharedData: {fileID: 11400000, guid: 16f09bc3867a3ae4cb92c04a2748534b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 22411067392
+    m_Localized: Halo Sobat! Kau harus membantuku!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 493708230656
+    m_Localized: Halo Penjelajar! Tolong Bantu Saya!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 386921250816
+    m_Localized: Badan saya terasa menggigil, dan keluar keringat dingin. Saya sulit
+      bergerak karena seluruh tubuhku terasa lemas. Otot dan kepala saya terasa nyeri.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1374767923200
+    m_Localized: Saya merasa lemas dan nyeri pada kepala. setiap saat saya bersin
+      hingga hidung saya tersumbat dan terasa sesak saat bernafas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144777342205952
+    m_Localized: Saya merasakan getaran pada seluruh bagian tubuh dan keringat dingin.
+      Saya merasa lemas dan sulit bergerak. Saya juga merasakan sakit pada otot dan
+      kepala.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144716218613760
+    m_Localized: Saya merasakan gemetar disertai keringat dingin, lemas, kesulitan
+      bergerak, serta nyeri otot dan kepala.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144747818500096
+    m_Localized: Saya merasa tidak bertenaga dan kepala terasa sakit. Saya sering
+      bersin sampai hidung saya terasa tersumbat dan sulit bernafas, seperti ada
+      yang menekan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3275353368674304
+    m_Localized: tunggu sebentar. menurutmu kemana kamu akan pergi sobat?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3276098176401408
+    m_Localized: pergi bantu orang-orang seperti yang ditugaskan padamu!!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3276432047194112
+    m_Localized: Sepertinya Anda telah menjadi dokter yang baik, Anda dapat melanjutkan
+      perjalanan Anda.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3278721113767936
+    m_Localized: Tidak ada tempat yang lebih baik untuk menikmati waktu luang Anda
+      selain di sini!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3279067429060608
+    m_Localized: Andai saja saat-saat seperti ini berlangsung selamanya...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3279408669245440
+    m_Localized: Aku ingin tahu apakah ayah bangga padaku sekarang...
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

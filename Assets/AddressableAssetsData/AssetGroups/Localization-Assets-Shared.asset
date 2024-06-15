@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Shared
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Shared
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 52977bed3bd28c44d8489d8bb7e47615
+  m_SerializeEntries:
+  - m_GUID: 0018368483c8edd429756334a37b0cba
+    m_Address: Assets/Localization Setting/Table/Language Table Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: edcafe12a0046cb4eae761431b4ea259
+    m_Address: Assets/Localization Setting/Table/In Game Table Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1978515ee8bb0a47ac05c7cc79d128f
+    m_Address: Assets/Localization Setting/Table/Option Language Setting Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 82ffa881dbf77b74eb4f8f645d352d7c
+    m_Address: Assets/Localization Setting/Table/Recipe Book Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16f09bc3867a3ae4cb92c04a2748534b
+    m_Address: Assets/Localization Setting/Table/NPC dialog Table Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: d325b3b2891ac8b45b8710a2c9d6f019, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8de351f1dbe53d84e8ab0c54dc0409a6, type: 2}
+    - {fileID: 11400000, guid: 1ad0f356a80aeed49892c48664c0cba8, type: 2}

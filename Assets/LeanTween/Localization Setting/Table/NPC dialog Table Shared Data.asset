@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: NPC dialog Table Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: NPC dialog Table
+  m_TableCollectionNameGuidString: 16f09bc3867a3ae4cb92c04a2748534b
+  m_Entries:
+  - m_Id: 22411067392
+    m_Key: NPC Male Greeting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 386921250816
+    m_Key: NPC 01 Mission
+    m_Metadata:
+      m_Items: []
+  - m_Id: 493708230656
+    m_Key: NPC Female Greeting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1374767923200
+    m_Key: NPC 02 Mission
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144716218613760
+    m_Key: NPC 03 Mission
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144747818500096
+    m_Key: NPC 04 Mission
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144777342205952
+    m_Key: NPC 05 Mission
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3275353368674304
+    m_Key: NPC Gerbang 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3276098176401408
+    m_Key: NPC Gerbang 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3276432047194112
+    m_Key: NPC Gerbang Finally
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3278721113767936
+    m_Key: 'Heksa 1
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3279067429060608
+    m_Key: Heksa 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3279408669245440
+    m_Key: Daria
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 6538925461949120516
+  references:
+    version: 2
+    RefIds:
+    - rid: 6538925461949120516
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1717384343331

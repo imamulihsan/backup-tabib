@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Option Language Setting Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Option Language Setting
+  m_TableCollectionNameGuidString: b1978515ee8bb0a47ac05c7cc79d128f
+  m_Entries:
+  - m_Id: 52773634048
+    m_Key: Page 1 Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20906626629632
+    m_Key: Page 2 Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21548019597312
+    m_Key: Page 2 Sub Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22012647817216
+    m_Key: Page 3 Sub Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 828896598409216
+    m_Key: Recipe Book
+    m_Metadata:
+      m_Items: []
+  - m_Id: 829228728565760
+    m_Key: Dash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 829277495738368
+    m_Key: conversation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 829433498681344
+    m_Key: Player movement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 829923099787264
+    m_Key: Consultant Mentor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 830052108189696
+    m_Key: Designer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 830217753837568
+    m_Key: Artist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 830313795010560
+    m_Key: Programming
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 7913208904217526274
+  references:
+    version: 2
+    RefIds:
+    - rid: 7913208904217526274
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1716841198447
