@@ -5,34 +5,51 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.InputSystem;
 using System;
-using Unity.VisualScripting;
 
-public class NPCInteractable02 : MonoBehaviour
+public class NPCInteractable02 : MonoBehaviour//, IDataPersistence
 {
+    // [SerializeField] private string id;
+
+    // [ContextMenu("Generate guid for id")]
+    // private void GenerateGuid()
+    // {
+    //     id = System.Guid.NewGuid().ToString();
+    // }
     
     public GameObject dialoguePanel;
+
+    public GameObject progressPanel;
     public TextMeshProUGUI dialogueText;
 
-      public GameObject QuestText;
+    public GameObject QuestText;
     [SerializeField] Transform Player;
     [SerializeField] Transform thisNPC;
+    PlayerInteraction playerInteraction;
     AgentMover agentMover;
     public string[] dialogue;
     private int index = 0;
 
     public float wordSpeed;
     public bool playerIsClose;
+    public string itemTag;
+    public string itemTag2;
+    public int XpReward;
 
     Color defaultColor;
-   SpriteRenderer spriteRenderer;
+    SpriteRenderer spriteRenderer;
 
-   Animator animator;
-   public float delay = 0.5f;
+    Animator animator;
+    public float delay = 0.1f;
 
-   public bool questFinished;
+    bool questInProgress =false;
 
-   PlayerExperience playerExperience;
-   private bool xpRewardGiven = false;
+    public bool questFinished;
+    private bool xpRewardGiven = false;
+    private bool itemQuestTaken = false;
+    public bool canPress = false; 
+    public bool isTyping = false;
+
+    PlayerExperience playerExperience;
 
 
     void Start()
@@ -42,16 +59,49 @@ public class NPCInteractable02 : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         defaultColor = spriteRenderer.color;
         animator = GetComponent<Animator>();
-         playerExperience = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerExperience>();
+        playerExperience = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerExperience>();
+        playerInteraction = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerInteraction>();
     }
+
+    // public void LoadData(GameData data)
+    // {
+    //     data.questFinished.TryGetValue(id, out itemQuestTaken);
+    //     if (itemQuestTaken)
+    //     {
+    //         thisNPC.gameObject.SetActive(false);
+    //     }
+    // }
+
+    // public void SaveData(GameData data)
+    // {
+    //     if (data.questFinished.ContainsKey(id))
+    //     {
+    //         data.questFinished.Remove(id);
+    //     }
+    //     data.questFinished.Add(id, !itemQuestTaken);
+    // }
+
+    //   public void LoadData(GameData data)
+    // {   
+    //     this.questFinished = data.questFinished;   
+    // }
+
+    // public void SaveData(GameData data)
+    // {
+    //     if (gameObject.tag == itemTag && id == this.id && itemQuestTaken == true)
+    //     {
+    //         data.questFinished = this.questFinished;
+    //     }
+    // }
 
     // Update is called once per frame
     public void Update()
     {
         if (Input.GetKeyDown(KeyCode.E) && playerIsClose)
         {
-            if (!dialoguePanel.activeInHierarchy && questFinished == false)
+            if (!dialoguePanel.activeInHierarchy && questInProgress == false && questFinished == false)
             {
+                 StopAllCoroutines();
                 dialoguePanel.SetActive(true);
                 StartCoroutine(Typing());
            
@@ -61,32 +111,51 @@ public class NPCInteractable02 : MonoBehaviour
             }
             else if (dialogueText.text == dialogue[index])
             {
+                 
                 NextLine();
-             
+
             }
+
+
+
+             if (!progressPanel.activeInHierarchy && questInProgress == true)
+            {
+                 StopAllCoroutines();
+                progressPanel.SetActive(true);
+ 
+            }
+            
 
             if (!QuestText.activeInHierarchy && questFinished == true)
             {
-               
-            
+                StopAllCoroutines();
             QuestText.SetActive(true);
-                
 
-                
             }
         }
-        if (Input.GetKeyDown(KeyCode.Q) && dialoguePanel.activeInHierarchy&& questFinished == false)
+        
         {
-            StartCoroutine(JustWait());
+           
+
+            if (Input.GetKeyDown(KeyCode.Q) && dialoguePanel.activeInHierarchy&& questFinished == false )
+            {
+                StopAllCoroutines();
+                StartCoroutine(JustWait());
+         
+            }
+             if (Input.GetKeyDown(KeyCode.Q) && progressPanel.activeInHierarchy&& questFinished == false  && questInProgress == true)
+            {
+                progressPanel.SetActive(false);
+         
+            }
+
+            if (Input.GetKeyDown(KeyCode.Q) && QuestText.activeInHierarchy&& questFinished == true)
+            {
+                QuestText.SetActive(false);
+            }
         }
 
-         if (Input.GetKeyDown(KeyCode.Q) && QuestText.activeInHierarchy&& questFinished == true)
-        {
-             StartCoroutine(QuestDone());
-           
-           
-        }
-XPReward();
+        XPReward();
 
         
 
@@ -95,6 +164,7 @@ XPReward();
 
     public void RemoveText()
     {
+        StopAllCoroutines();
         dialogueText.text = "";
         index = 0;
         dialoguePanel.SetActive(false);
@@ -102,33 +172,50 @@ XPReward();
 
     IEnumerator Typing()
     {
+        isTyping = true; 
         foreach(char letter in dialogue[index].ToCharArray())
         {
             dialogueText.text += letter;
             yield return new WaitForSeconds(wordSpeed);
+            canPress = true;
         
         }
+        isTyping = false;
     }
 
     public IEnumerator JustWait()
     {
-            yield return new WaitForSeconds(delay);
-            RemoveText();
+        if(canPress == true) 
+        yield return new WaitForSeconds(delay);
+        RemoveText();
     }
 
- public IEnumerator QuestDone()
+    public IEnumerator QuestDone()
     {
-            yield return new WaitForSeconds(delay);
-            QuestText.SetActive(false);
+          
+        yield return new WaitForSeconds(delay);
+        QuestText.SetActive(false);
             
     }
+
+    public IEnumerator QuestInProgress()
+    {
+          
+        yield return new WaitForSeconds(delay);
+        progressPanel.SetActive(false);
+            
+    }
+
     public void NextLine()
     {
+        StopAllCoroutines();
         if (index < dialogue.Length - 1)
         {
+           
             index++;
             dialogueText.text = "";
             StartCoroutine(Typing());
+            canPress = true;
             
         }
         else
@@ -146,39 +233,41 @@ XPReward();
             animator.speed = 0.5f;
         }
 
-          if (other.CompareTag("Potion"))
+        if ( other.gameObject.tag == itemTag &&!itemQuestTaken)
+        {
+            questInProgress = true;
+            Destroy(other.gameObject);
+            dialoguePanel.SetActive(false);
+            progressPanel.SetActive(true);
+          
+           
+        }
+
+         if ( other.gameObject.tag == itemTag2 &&!itemQuestTaken && questInProgress == true )
         {
             Destroy(other.gameObject);
             dialoguePanel.SetActive(false);
+            QuestText.SetActive(true);
             questFinished = true;
-          
-           
-           
-           
+            itemQuestTaken = true;
+            questInProgress =false;
         }
-
-        
-       
-        
+ 
     }
 
-    private void OnTriggerStay2D(Collider2D other){
-        if (other.CompareTag("Player")){
-                if(Player.position.x  > thisNPC.position.x ){
-                spriteRenderer.flipX = false;
-             }
-                if(Player.position.x  < thisNPC.position.x ){
-                spriteRenderer.flipX = enabled;
-             }
-        }
-
-        if (other.CompareTag("Potion"))
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
         {
-            Destroy(other.gameObject);
-        }
-
-
-        
+            if(Player.position.x  > thisNPC.position.x )
+            {
+                spriteRenderer.flipX = false;
+            }
+            if(Player.position.x  < thisNPC.position.x )
+            {
+                spriteRenderer.flipX = enabled;
+            }
+        }  
     }
 
     private void OnTriggerExit2D(Collider2D other)
@@ -187,16 +276,21 @@ XPReward();
         {
             playerIsClose = false;
             RemoveText();
+            progressPanel.SetActive(false);
+            dialoguePanel.SetActive(false);
+            QuestText.SetActive(false);
             spriteRenderer.color = defaultColor;
             animator.speed = 1f;
         }
     }
 
-    private void XPReward(){
-      if (questFinished && !xpRewardGiven) {
-        playerExperience.currentXP += 200;
-        xpRewardGiven = true; // Set the flag to true to indicate that the reward has been given
-    }
+    private void XPReward()
+    {
+        if (questFinished && !xpRewardGiven)
+        {
+            playerExperience.currentXP += XpReward;
+            xpRewardGiven = true; 
+        }
     }
 
 

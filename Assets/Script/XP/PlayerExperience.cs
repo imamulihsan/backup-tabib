@@ -9,7 +9,7 @@ public class PlayerExperience : MonoBehaviour, IDataPersistence
     Health health;
     GameObject player;
     NPCInteractable nPCInteractable;
-    public int maxXP = 0;
+    
     public int damageValue = 1;
     public int currentXP = 0;
 
@@ -19,10 +19,12 @@ public class PlayerExperience : MonoBehaviour, IDataPersistence
 
     bool healthIsUpgraded = false;
 
-    public GameObject healthPanel;
+    public GameObject healthPanelUpLvl3;
+
+      public GameObject healthPanelUpLvl5;
 
     public Image[] attackPowerUI;
-    public GameObject attackPanel;
+    public GameObject attackPanelUpLvl3;
 
     public int currentLevel = 1;
     bool levelIsUpgraded = false;
@@ -58,13 +60,32 @@ public class PlayerExperience : MonoBehaviour, IDataPersistence
             StartCoroutine(LevelUPNotification(3));
             damageValue += 1;
             health.maxHealth += 1;
+            health.currentHealth = health.maxHealth;
             currentLevel += 1;
 
-            healthPanel.SetActive(true);
-            attackPanel.SetActive(true);
+            healthPanelUpLvl3.SetActive(true);
+            attackPanelUpLvl3.SetActive(true);
             levelIsUpgraded = true;
             attackIsUpgraded = true;
             healthIsUpgraded = true;
+            currentLevel =3;
+        }
+
+        if(currentXP >= 1200 && currentLevel ==3)
+        {
+            
+            StartCoroutine(LevelUPNotification(4));
+            currentLevel =4;
+        }
+
+         if(currentXP >= 1600 && currentLevel ==4)
+        {
+            StartCoroutine(LevelUPNotification(5));
+             health.maxHealth += 1;
+             
+            healthPanelUpLvl5.SetActive(true);
+            health.currentHealth = health.maxHealth;
+            currentLevel =5;
         }
         return damageValue;
     }
