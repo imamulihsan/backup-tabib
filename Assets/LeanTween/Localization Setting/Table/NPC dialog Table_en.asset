@@ -76,6 +76,117 @@ MonoBehaviour:
     m_Localized: I wonder if dad proud of me now...
     m_Metadata:
       m_Items: []
+  - m_Id: 4720839816495104
+    m_Localized: I think, lately I have difficulty breathing and my chest feels painful.
+      I cough more often and sometimes have headaches.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4721201361305600
+    m_Localized: i appreciate your concern but i need more than this right??
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4723448665194496
+    m_Localized: Wait wait.. I mean no harm upon nobody. Listen, my fellow got sick
+      and in need of aid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4723511961436160
+    m_Localized: 'I just want to help my mate , please be so kindly to help as another
+      nomad '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4723689871228928
+    m_Localized: He said that his chest and head area felt painful. I saw that he
+      also coughed a lot and seemed to have difficulty breathing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4725102558953472
+    m_Localized: Red bumps appear on my skin, the top of the bump looks like a white
+      dot and when it enlarges it looks like it contains pus.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4726037658058752
+    m_Localized: I'm strong enough and don't feel any pain. But this lump bothers
+      me. They looked like they were about to explode, their tops were white while
+      their surroundings looked yellow.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4726346795040768
+    m_Localized: My voice is hoarse to the point of occasionally disappearing. When
+      speaking or swallowing something, my throat feels painful and sometimes itchy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4726923423760384
+    m_Localized: Looking at a calm sea always makes my head clear..
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4726958416838656
+    m_Localized: While the brezee that comes gently touching my skin make me remember
+      a path that waiting for me to comes walk accross it..
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4727101836869632
+    m_Localized: If only she's here to accompany my journey..
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4727538568773632
+    m_Localized: i HOPE he's still waiting for me as i sort out my unfinish affairs..
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4727566351843328
+    m_Localized: as i continue my own journey..
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4728063825657856
+    m_Localized: Man i hate night shift, its always scary wandering around alone
+      in the middle od the night !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4728110789279744
+    m_Localized: maybe i can just lay low here avoiding any dangerous..
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4728602600783872
+    m_Localized: I need to pay my rent tommorow..
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4728654857617408
+    m_Localized: maybe someone can lend me some money..
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4728940066095104
+    m_Localized: Maybe i just need to push myself a little bit more
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4730083936681984
+    m_Localized: No, you are not allowed to pass this bridge until you finish your
+      task
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4731004666101760
+    m_Localized: 'Its Been days since my mom look out for me ... '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4731067756822528
+    m_Localized: Is she even noticed i'm gone..
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4731526483656704
+    m_Localized: I love my garden more than my own child
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4731909771739136
+    m_Localized: ' Hello.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4735671655579648
+    m_Localized: Thank you very much for taking the time to help me.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4736280643354624
+    m_Localized: I'm lucky to have met you, buddy. Thank you for the help.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -79,6 +79,119 @@ MonoBehaviour:
     m_Localized: Aku ingin tahu apakah ayah bangga padaku sekarang...
     m_Metadata:
       m_Items: []
+  - m_Id: 4720839816495104
+    m_Localized: Saya pikir, akhir-akhir ini saya sulit bernapas dan dada saya terasa
+      nyeri. Saya lebih sering batuk dan terkadang sakit pada kepala.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4721201361305600
+    m_Localized: saya menghargai perhatian Anda tetapi saya membutuhkan lebih dari
+      ini kan??
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4723448665194496
+    m_Localized: Tunggu tunggu.. Maksudku tidak ada salahnya bagi siapa pun. Dengar,
+      temanku jatuh sakit dan membutuhkan bantuan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4723511961436160
+    m_Localized: Saya hanya ingin membantu teman saya, mohon berbaik hati membantu
+      sebagai pengembara lainnya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4723689871228928
+    m_Localized: Dia bilang bahwa area dada dan kepalanya terasa nyeri. Saya lihat,
+      dia juga sering sekali batuk dan terlihat kesulitan bernapas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4725102558953472
+    m_Localized: Pada kulitku muncul benjolan merah, puncak benjolannya terlihat
+      titik putih dan saat membesar terlihat berisi nanah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4726037658058752
+    m_Localized: Aku cukup kuat dan tidak merasakan sakit. Tapi benjolan ini menggangguku.
+      Mereka terlihat seperti akan meledak, puncaknya berwarna putih sedangkan sekitarnya
+      terlihat menguning.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4726346795040768
+    m_Localized: Suara saya serak hingga sesekali menghilang. Saat berbicara atau
+      menelan sesuatu rasanya nyeri pada tenggorokan dan terkadang terasa gatal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4726923423760384
+    m_Localized: Memandang laut yang tenang selalu membuat kepalaku jernih..
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4726958416838656
+    m_Localized: Sementara angin sepoi-sepoi yang datang menyentuh lembut kulitku
+      membuatku teringat pada jalan setapak yang menunggu untuk kulalui..
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4727101836869632
+    m_Localized: Andai saja dia ada disini menemani perjalananku..
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4727538568773632
+    m_Localized: aku BERHARAP dia masih menungguku saat aku membereskan urusanku
+      yang belum selesai..
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4727566351843328
+    m_Localized: saat aku melanjutkan perjalananku sendiri..
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4728063825657856
+    m_Localized: Aduh, aku benci shift malam, selalu menakutkan berkeliaran sendirian
+      di tengah malam!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4728110789279744
+    m_Localized: mungkin aku bisa berbaring saja di sini menghindari bahaya..
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4728602600783872
+    m_Localized: Aku harus membayar sewaku besok..
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4728654857617408
+    m_Localized: mungkin ada yang bisa meminjamiku uang..
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4728940066095104
+    m_Localized: Mungkin aku hanya perlu mendorong diriku sedikit lagi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4730083936681984
+    m_Localized: Tidak, Anda tidak diperbolehkan melewati jembatan ini sampai Anda
+      menyelesaikan tugas Anda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4731004666101760
+    m_Localized: Sudah berhari-hari sejak ibuku menjagaku...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4731067756822528
+    m_Localized: Apakah dia menyadari aku pergi..
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4731526483656704
+    m_Localized: Saya lebih mencintai taman saya daripada anak saya sendiri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4731909771739136
+    m_Localized: Halo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4735671655579648
+    m_Localized: Terima banyak karena anda meluangkan waktu untuk membantu saya.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4736280643354624
+    m_Localized: Saya beruntung bertemu denganmu, sobat. Terima kasih atas bantuannya.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

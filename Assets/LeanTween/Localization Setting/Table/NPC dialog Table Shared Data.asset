@@ -69,6 +69,106 @@ MonoBehaviour:
     m_Key: Daria
     m_Metadata:
       m_Items: []
+  - m_Id: 4720839816495104
+    m_Key: Mulyadi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4721201361305600
+    m_Key: Progress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4723448665194496
+    m_Key: Arya 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4723511961436160
+    m_Key: Arya 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4723689871228928
+    m_Key: Arya 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4725102558953472
+    m_Key: Sari
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4726037658058752
+    m_Key: Surya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4726346795040768
+    m_Key: Siti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4726923423760384
+    m_Key: Zulfan 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4726958416838656
+    m_Key: Zulfan 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4727101836869632
+    m_Key: Zulfan 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4727538568773632
+    m_Key: Lina 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4727566351843328
+    m_Key: Lina 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4728063825657856
+    m_Key: Malik 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4728110789279744
+    m_Key: Malik 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4728602600783872
+    m_Key: Reza 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4728654857617408
+    m_Key: Reza 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4728940066095104
+    m_Key: Ksatria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4730083936681984
+    m_Key: NPC Gerbang Area2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4731004666101760
+    m_Key: Child 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4731067756822528
+    m_Key: Child 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4731526483656704
+    m_Key: Jamila
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4731909771739136
+    m_Key: Adam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4735671655579648
+    m_Key: NPC Female Finally
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4736280643354624
+    m_Key: NPC Male Finally
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
