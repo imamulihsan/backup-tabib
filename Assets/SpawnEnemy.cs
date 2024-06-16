@@ -27,6 +27,14 @@ public class SpawnEnemy : MonoBehaviour
         [SerializeField]public EnemyArea8 enemyArea8;
          [SerializeField]public EnemyArea9 enemyArea9;
           [SerializeField]public EnemyArea10 enemyArea10;
+
+           [SerializeField]public EnemyArea11 enemyArea11;
+
+           [SerializeField]public EnemyArea12 enemyArea12;
+
+           [SerializeField]public EnemyArea13 enemyArea13;
+
+           [SerializeField]public EnemyArea14 enemyArea14;
     [SerializeField] public GameObject thisGameObject;
 
     Rigidbody2D rb;
@@ -107,6 +115,26 @@ public class SpawnEnemy : MonoBehaviour
         if (!isFading && enemyArea10!= null)
         {
             StartCoroutine( Fade10());
+        }
+
+        if (!isFading && enemyArea11!= null)
+        {
+            StartCoroutine( Fade11());
+        }
+
+        if (!isFading && enemyArea12!= null)
+        {
+            StartCoroutine( Fade12());
+        }
+
+        if (!isFading && enemyArea13!= null)
+        {
+            StartCoroutine( Fade13());
+        }
+
+        if (!isFading && enemyArea14!= null)
+        {
+            StartCoroutine( Fade14());
         }
 
          
@@ -498,6 +526,25 @@ public IEnumerator Fade2(){
         float wait = 0.3f;
         if (distance > enemyArea10.Detector && !isFading && !isChangingPosition && doneFading ==false &&enemyArea10 != null  )
         {
+            
+        }
+
+        if (distance < enemyArea10.Detector && !isFading && isChangingPosition && doneFading ==true && enemyArea10!= null )
+        {
+            
+            yield return new WaitForSeconds(wait);
+            
+        }
+
+        
+    }
+
+    public IEnumerator Fade11(){
+
+    float distance = Vector2.Distance(player.position, transform.position);
+        float wait = 0.3f;
+        if (distance > enemyArea11.Detector && !isFading && !isChangingPosition && doneFading ==false &&enemyArea11 != null  )
+        {
             isFading = true;
             doneFading =false;
             OnMovementInput?.Invoke(Vector2.zero);
@@ -508,14 +555,14 @@ public IEnumerator Fade2(){
             OnFadeOut?.Invoke();
 
             // Change position for each enemy in the array
-            enemyArea10.ChangeEnemyPositionRandomly();
+            enemyArea11.ChangeEnemyPositionRandomly();
              yield return new WaitForSeconds(2);
             doneFading = true;
             isFading = false;
             isChangingPosition = true;
         }
 
-        if (distance < enemyArea10.Detector && !isFading && isChangingPosition && doneFading ==true && enemyArea10!= null )
+        if (distance < enemyArea11.Detector && !isFading && isChangingPosition && doneFading ==true && enemyArea11!= null )
         {
             wait = 0f;
             isFading = true;
@@ -528,6 +575,85 @@ public IEnumerator Fade2(){
             isFading = false;
             isChangingPosition = false;
             doneFading =false;
+        }
+
+        
+    }
+
+    public IEnumerator Fade12(){
+
+    float distance = Vector2.Distance(player.position, transform.position);
+        float wait = 0.3f;
+        if (distance > enemyArea12.Detector && !isFading && !isChangingPosition && doneFading ==false &&enemyArea12 != null  )
+        {
+            isFading = true;
+            doneFading =false;
+            OnMovementInput?.Invoke(Vector2.zero);
+            yield return new WaitForSeconds(wait);
+            animator.SetBool("FadeOut", true);
+            weaponAnimator.SetBool("Fading", true);
+            yield return new WaitForSeconds(wait);
+            OnFadeOut?.Invoke();
+
+            // Change position for each enemy in the array
+            enemyArea12.ChangeEnemyPositionRandomly();
+             yield return new WaitForSeconds(2);
+            doneFading = true;
+            isFading = false;
+            isChangingPosition = true;
+        }
+
+        if (distance < enemyArea12.Detector && !isFading && isChangingPosition && doneFading ==true && enemyArea12!= null )
+        {
+            wait = 0f;
+            isFading = true;
+            doneFading = true;
+            animator.SetBool("FadeOut", false);
+            weaponAnimator.SetBool("Fading", false);
+            weaponAnimator.SetTrigger("Iddling");
+            yield return new WaitForSeconds(wait);
+            OnFadeIn?.Invoke();
+            isFading = false;
+            isChangingPosition = false;
+            doneFading =false;
+        }
+
+        
+    }
+
+    public IEnumerator Fade13(){
+
+    float distance = Vector2.Distance(player.position, transform.position);
+        float wait = 0.3f;
+        if (distance > enemyArea13.Detector && !isFading && !isChangingPosition && doneFading ==false &&enemyArea13 != null  )
+        {
+            
+        }
+
+        if (distance < enemyArea13.Detector && !isFading && isChangingPosition && doneFading ==true && enemyArea10!= null )
+        {
+            
+            yield return new WaitForSeconds(wait);
+           
+        }
+
+        
+    }
+
+     public IEnumerator Fade14(){
+
+    float distance = Vector2.Distance(player.position, transform.position);
+        float wait = 0.3f;
+        if (distance > enemyArea14.Detector && !isFading && !isChangingPosition && doneFading ==false &&enemyArea14 != null  )
+        {
+            
+        }
+
+        if (distance < enemyArea14.Detector && !isFading && isChangingPosition && doneFading ==true && enemyArea14!= null )
+        {
+            
+            yield return new WaitForSeconds(wait);
+           
         }
 
         

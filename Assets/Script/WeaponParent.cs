@@ -14,7 +14,7 @@ public class WeaponParent : MonoBehaviour
     public float radius;
 
     public Animator animator;
-    public float delay = 0.8f;
+    public float delay = 0.3f;
 
     public bool attackLocked;
 

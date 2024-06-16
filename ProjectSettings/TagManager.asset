@@ -46,6 +46,18 @@ TagManager:
   - Lemon
   - Madu
   - Lengkuas
+  - Enemy11
+  - Enemy12
+  - IndependentNPC
+  - IndependentEnemy
+  - Enemy13
+  - Enemy14
+  - Pala
+  - Pisang
+  - Mengkudu
+  - LidahBuaya
+  - Sirih
+  - Kelor
   layers:
   - Default
   - TransparentFX

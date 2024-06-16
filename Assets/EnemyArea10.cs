@@ -128,7 +128,7 @@ public class EnemyArea10 : MonoBehaviour
 
      IEnumerator Ambushing()
     {
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(3f);
         OnPlayerLeavingWithReference?.Invoke();
       
     }
