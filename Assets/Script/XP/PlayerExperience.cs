@@ -23,8 +23,12 @@ public class PlayerExperience : MonoBehaviour, IDataPersistence
 
       public GameObject healthPanelUpLvl5;
 
+      public GameObject healthPanelUpLvl6;
+
     public Image[] attackPowerUI;
     public GameObject attackPanelUpLvl3;
+
+    public GameObject attackPanelUpLvl6;
 
     public int currentLevel = 1;
     bool levelIsUpgraded = false;
@@ -55,7 +59,7 @@ public class PlayerExperience : MonoBehaviour, IDataPersistence
             currentLevel =2;
         }
 
-        if (currentXP >= 500 && !attackIsUpgraded && !healthIsUpgraded && currentLevel ==2)
+        if (currentXP >= 300 && !attackIsUpgraded && !healthIsUpgraded && currentLevel ==2)
         {
             StartCoroutine(LevelUPNotification(3));
             damageValue += 1;
@@ -71,21 +75,36 @@ public class PlayerExperience : MonoBehaviour, IDataPersistence
             currentLevel =3;
         }
 
-        if(currentXP >= 1200 && currentLevel ==3)
+        if(currentXP >= 1000 && currentLevel ==3)
         {
             
             StartCoroutine(LevelUPNotification(4));
             currentLevel =4;
+            
         }
 
          if(currentXP >= 1600 && currentLevel ==4)
         {
             StartCoroutine(LevelUPNotification(5));
              health.maxHealth += 1;
-             
+              damageValue += 1;
             healthPanelUpLvl5.SetActive(true);
+            attackPanelUpLvl6.SetActive(true);
             health.currentHealth = health.maxHealth;
             currentLevel =5;
+        }
+
+        if(currentXP >= 2000 && currentLevel ==5)
+        {
+            StartCoroutine(LevelUPNotification(6));
+             health.maxHealth += 1;
+
+            
+             
+            healthPanelUpLvl6.SetActive(true);
+            health.currentHealth = health.maxHealth;
+           
+            currentLevel =6;
         }
         return damageValue;
     }
