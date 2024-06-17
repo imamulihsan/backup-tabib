@@ -77,18 +77,6 @@ MonoBehaviour:
     m_Key: Progress
     m_Metadata:
       m_Items: []
-  - m_Id: 4723448665194496
-    m_Key: Arya 1
-    m_Metadata:
-      m_Items: []
-  - m_Id: 4723511961436160
-    m_Key: Arya 2
-    m_Metadata:
-      m_Items: []
-  - m_Id: 4723689871228928
-    m_Key: Arya 3
-    m_Metadata:
-      m_Items: []
   - m_Id: 4725102558953472
     m_Key: Sari
     m_Metadata:
@@ -167,6 +155,70 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 4736280643354624
     m_Key: NPC Male Finally
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5225779987070976
+    m_Key: Yuli
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5226775240884224
+    m_Key: Two Progress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5236913867702272
+    m_Key: Rangga
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5237261676167168
+    m_Key: Wina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5237731731816448
+    m_Key: Atep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5239142771179520
+    m_Key: Herman 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5239204926570496
+    m_Key: Herman 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5239276997296128
+    m_Key: Herman 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5239778472476672
+    m_Key: Agus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5241203973799936
+    m_Key: Ayu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5242136308858880
+    m_Key: Ijah 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5242309818826752
+    m_Key: Ijah 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5248050814369792
+    m_Key: Arya 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5248217261129728
+    m_Key: Arya 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5248688348577792
+    m_Key: Bima
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5251461886623744
+    m_Key: Cahyo
     m_Metadata:
       m_Items: []
   m_Metadata:

@@ -89,19 +89,16 @@ MonoBehaviour:
       ini kan??
     m_Metadata:
       m_Items: []
-  - m_Id: 4723448665194496
-    m_Localized: Tunggu tunggu.. Maksudku tidak ada salahnya bagi siapa pun. Dengar,
-      temanku jatuh sakit dan membutuhkan bantuan
+  - m_Id: 5248050814369792
+    m_Localized: Mulai saat ini dan seterusnya, jalannya akan berbahaya!!
     m_Metadata:
       m_Items: []
-  - m_Id: 4723511961436160
-    m_Localized: Saya hanya ingin membantu teman saya, mohon berbaik hati membantu
-      sebagai pengembara lainnya
+  - m_Id: 5248217261129728
+    m_Localized: Hati - hati..
     m_Metadata:
       m_Items: []
-  - m_Id: 4723689871228928
-    m_Localized: Dia bilang bahwa area dada dan kepalanya terasa nyeri. Saya lihat,
-      dia juga sering sekali batuk dan terlihat kesulitan bernapas
+  - m_Id: 5248688348577792
+    m_Localized: Hati-hati.. diluar sana gelap!!
     m_Metadata:
       m_Items: []
   - m_Id: 4725102558953472
@@ -190,6 +187,62 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 4736280643354624
     m_Localized: Saya beruntung bertemu denganmu, sobat. Terima kasih atas bantuannya.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5225779987070976
+    m_Localized: Perutku terasa kram dan nyeri, berkali-kali ke kamar mandi membuatku
+      kehilangan nafsu makan, feses yang keluar pun cenderung lembek dan cair.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5226775240884224
+    m_Localized: Apakah ini cukup??
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5236913867702272
+    m_Localized: Kulit lenganku terasa gatal dan kering, warna kulit yang gatal menjadi
+      lebih gelap dan menebal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5237261676167168
+    m_Localized: Saya merasa demam, nyeri kepala, hingga mual. Muncul ruam merah
+      pada seluruh tubuhku, diantaranya terlihat melepuh dan berisi cairan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5237731731816448
+    m_Localized: Aku tidak nafsu makan, namun perutku selalu sakit dan terus buang
+      air besar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5239142771179520
+    m_Localized: Saya harap semua orang mendapatkan hari yang baik..
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5239204926570496
+    m_Localized: saya harap semuanya berjalan sesuai jalurnya. .
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5239276997296128
+    m_Localized: Tidak mungkin selamanya seperti ini..
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5239778472476672
+    m_Localized: aku ingin tahu apakah karyaku cukup bagus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5241203973799936
+    m_Localized: Cuacanya bagus hari ini!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5242136308858880
+    m_Localized: Sendirian di tengah malam selalu menyegarkan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5242309818826752
+    m_Localized: Aku hanya berharap tidak ada yang datang untuk berbicara denganku..
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5251461886623744
+    m_Localized: Kamu tidak boleh lewat !!
     m_Metadata:
       m_Items: []
   references:
