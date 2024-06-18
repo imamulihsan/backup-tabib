@@ -24,7 +24,7 @@ public class PlayerInput : MonoBehaviour
         return Camera.main.ScreenToWorldPoint(mousePos);
     }
 
-    private void OnEnable()
+   public void OnEnable()
     {
         attack.action.performed += PerformAttack;
         dash.action.performed += PerformDash;
@@ -32,7 +32,7 @@ public class PlayerInput : MonoBehaviour
         recipeBook.action.performed += PerformRecipeBook;
     }
 
-    private void OnDisable()
+    public void OnDisable()
     {
         attack.action.performed -= PerformAttack;
         dash.action.performed -= PerformDash;

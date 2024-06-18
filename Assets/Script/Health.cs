@@ -29,6 +29,7 @@ public class Health : MonoBehaviour, IDataPersistence
     healthAnimation healthAnimation;
 
     private CanvasGroup deathPanelCanvasGroup;
+    PlayerKnockback playerKnockback;
 
     float Wait = 0.0f;
 
@@ -44,6 +45,7 @@ public class Health : MonoBehaviour, IDataPersistence
         healthAnimation = GameObject.FindGameObjectWithTag("HealthUI").GetComponent<healthAnimation>();
         deathPanelCanvasGroup = DeathPanel.GetComponent<CanvasGroup>();
         anima = GetComponent<Animation>();
+        playerKnockback = GetComponent<PlayerKnockback>();
     }
 
     //Connect to GameData and Data Persistence for saved game health 
@@ -79,6 +81,7 @@ public class Health : MonoBehaviour, IDataPersistence
         return;
 
        currentHealth = currentHealth - begalHealth.damage;
+       
     
         if(currentHealth >0 )
         {

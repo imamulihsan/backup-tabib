@@ -52,7 +52,7 @@ public class TuguHealing : MonoBehaviour
         isHealingUsed = true;
         yield return new WaitForSeconds(1.5f);
         yield return StartCoroutine(FadeOutPanel());
-        yield return new WaitForSeconds(60);
+        yield return new WaitForSeconds(45);
         isHealingUsed = false;
     }
 
