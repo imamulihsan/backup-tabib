@@ -245,6 +245,45 @@ MonoBehaviour:
     m_Localized: Kamu tidak boleh lewat !!
     m_Metadata:
       m_Items: []
+  - m_Id: 5636413627154432
+    m_Localized: Baiklah, kamu bisa melewatinya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5636714904010752
+    m_Localized: Tempat apa yang kamu tanyakan ini ??
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5636771598417920
+    m_Localized: ini adalah zona karantina bagi Anda untuk beristirahat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5636994823471104
+    m_Localized: kamu membantu banyak penduduk desa yang sakit, setidaknya itulah
+      yang bisa dilakukan para petinggi untukmu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5637151782715392
+    m_Localized: ambil ini sebagai tempat pensiunmu..
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5637772980109312
+    m_Localized: Jadi begitu..
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5637892110925824
+    m_Localized: kamu berhasil, itu adalah beban yang harus dipikul sebagai antek
+      kerajaan..
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5638013615718400
+    m_Localized: Meskipun tugasmu lebih seperti misi bunuh diri, tapi kamu tetap
+      berhasil..
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5638150178062336
+    m_Localized: Mari kita istirahat .. untuk saat ini ..
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

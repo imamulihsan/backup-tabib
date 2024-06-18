@@ -240,6 +240,44 @@ MonoBehaviour:
     m_Localized: You shall not pass !!
     m_Metadata:
       m_Items: []
+  - m_Id: 5636413627154432
+    m_Localized: Alright, you can pass through
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5636714904010752
+    m_Localized: What this place you asked ??
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5636771598417920
+    m_Localized: it's a quarantine zone for you to rest.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5636994823471104
+    m_Localized: 'you helped many ill villagers, its the least the higher ups can
+      do for you '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5637151782715392
+    m_Localized: take this as your retired place..
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5637772980109312
+    m_Localized: I see..
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5637892110925824
+    m_Localized: you made it, it is a burden to carry as a kingdom's minion..
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5638013615718400
+    m_Localized: Even though your task is more like suicide mission, but you made
+      it nonetheless..
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5638150178062336
+    m_Localized: Lets just rest .. for now..
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
