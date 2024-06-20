@@ -7,13 +7,13 @@ public class SpawnLengkuas: MonoBehaviour
 {
    public GameObject item ;
    Agent agent;
-   private Transform thisGameObject;
+  [SerializeField ] public Transform thisGameObject;
    
    
 
    public void Start()
    {
-    thisGameObject =GameObject.FindGameObjectWithTag("Lengkuas").transform;
+    
     agent = GetComponent<Agent>();
     gameObject.tag="Lengkuas";
     

@@ -7,13 +7,14 @@ public class SpawnBawangMerah : MonoBehaviour
 {
    public GameObject item ;
    Agent agent;
-   private Transform thisGameObject;
+   [SerializeField ]
+   public Transform thisGameObject;
    
    
 
    public void Start()
    {
-    thisGameObject =GameObject.FindGameObjectWithTag("BawangMerah").transform;
+    
     agent = GetComponent<Agent>();
     gameObject.tag="BawangMerah";
     

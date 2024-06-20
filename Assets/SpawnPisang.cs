@@ -7,13 +7,14 @@ public class SpawnPisang: MonoBehaviour
 {
    public GameObject item ;
    Agent agent;
-   private Transform thisGameObject;
+  [SerializeField ]
+  public Transform thisGameObject;
    
    
 
    public void Start()
    {
-    thisGameObject =GameObject.FindGameObjectWithTag("Pisang").transform;
+   
     agent = GetComponent<Agent>();
     gameObject.tag="Pisang";
     

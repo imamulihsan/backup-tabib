@@ -7,13 +7,13 @@ public class SpawnMadu: MonoBehaviour
 {
    public GameObject item ;
    Agent agent;
-   private Transform thisGameObject;
+   [SerializeField ] public Transform thisGameObject;
    
    
 
    public void Start()
    {
-    thisGameObject =GameObject.FindGameObjectWithTag("Madu").transform;
+
     agent = GetComponent<Agent>();
     gameObject.tag="Madu";
     

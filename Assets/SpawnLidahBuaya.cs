@@ -7,13 +7,13 @@ public class SpawnLidahBuaya: MonoBehaviour
 {
    public GameObject item ;
    Agent agent;
-   private Transform thisGameObject;
+  public Transform thisGameObject;
    
    
 
    public void Start()
    {
-    thisGameObject =GameObject.FindGameObjectWithTag("LidahBuaya").transform;
+    
     agent = GetComponent<Agent>();
     gameObject.tag="LidahBuaya";
     
