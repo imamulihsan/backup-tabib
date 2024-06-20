@@ -130,7 +130,7 @@ public class EnemyArea5 : MonoBehaviour
             {
                 Vector2 randomPosition = new Vector2(
                     Random.Range(enemyThreshold.transform.position.x - randomRangeX  , enemyThreshold.transform.position.x + randomRangeX -4),
-                    Random.Range(enemyThreshold.transform.position.y - randomRangeY -4, enemyThreshold.transform.position.y + randomRangeY )
+                    Random.Range(enemyThreshold.transform.position.y - randomRangeY +4, enemyThreshold.transform.position.y + randomRangeY )
                 );
 
                 enemy.transform.position = randomPosition;

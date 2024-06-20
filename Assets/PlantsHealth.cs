@@ -9,11 +9,12 @@ public class PlantsHealth : MonoBehaviour
     public float delay = 0.5f;
     
     public int damage = 1;
+     public float respawnTime = 20f;
 
     [SerializeField] public int currentHealth,maxHealth;
 
     public UnityEvent<GameObject>OnHitWithReference,OnDeathWithReference;
-
+    public UnityEvent OnRespawnWithReference;
     [SerializeField] public bool isDead= false;
 
     Rigidbody2D rb;
@@ -70,6 +71,8 @@ public void Awake(){
             StopAllCoroutines();
             rb.velocity = new UnityEngine.Vector3 (0,0);
             OnDeathWithReference?.Invoke(sender);
+             isDead =true;
+             animator.SetTrigger("Death");
             StartCoroutine(Death()); 
         }
 
@@ -78,10 +81,17 @@ public void Awake(){
     public IEnumerator Death(){
      
       
-        animator.SetTrigger("Death");
-        isDead =true;
-        yield return new  WaitForSeconds(delay);
-        Destroy(gameObject);
+      
+
+        yield return new WaitForSeconds(respawnTime);
+        animator.SetTrigger("Respawn");
+        yield return new WaitForSeconds(1f);
+         isDead =false;
+        gameObject.SetActive(true);
+        OnRespawnWithReference?.Invoke();
+        InitializeHealth(maxHealth); 
+
+        capsuleCollider2D.enabled = true;
     }
 
     public void AddHealth(int healthBoost = 2)
