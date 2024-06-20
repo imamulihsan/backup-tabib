@@ -91,7 +91,7 @@ public void Awake(){
         OnRespawnWithReference?.Invoke();
         InitializeHealth(maxHealth); 
 
-        capsuleCollider2D.enabled = true;
+       
     }
 
     public void AddHealth(int healthBoost = 2)
