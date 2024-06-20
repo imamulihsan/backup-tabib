@@ -101,7 +101,7 @@ public class SpikerKnockback : MonoBehaviour, IDataPersistence
 
     private void ApplySpikeDamage(Collider2D sender, float push)
     {
-        if (health.currentHealth > 0 && canBeHitted )
+        if (health.currentHealth > 0 )
         {
             StopAllCoroutines();
             OnBegin?.Invoke();
